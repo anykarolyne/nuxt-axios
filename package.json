@@ -1,0 +1,24 @@
+{
+  "name": "egghead-nuxt",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.15.3",
+    "nuxt": "latest",
+    "tachyons": "^4.6.2"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "config": {
+    "nuxt": {
+      "host": "127.0.0.1",
+      "port": "4444"
+    }
+  }
+}
