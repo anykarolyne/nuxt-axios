@@ -3,8 +3,8 @@
      <article class="pa3 pa5-ns">
       <h1 class="f4 bold center mw6">Completed Todos</h1>
       <ul class="list pl0 ml0 center mw6 ba b--light-silver br2">
-        <li v-for="todo of todos" class="flex items-center ph3 pv3 bb b--light-silver">
-          <span class="flex-auto">{{todo.id}}. {{todo.task}}</span>          
+        <li v-for="travel of travels" class="flex items-center ph3 pv3 bb b--light-silver">
+          <span class="flex-auto">{{travel.id}}. {{travel.task}}</span>
         </li>
       </ul>
     </article>
@@ -20,7 +20,7 @@ export default {
 
   computed:{
     ...mapState({
-      todos: state => state.todos.filter(todo => todo.complete)      
+      travels: state => state.travels.filter(todo => travel.complete)
     })
   }
 }
